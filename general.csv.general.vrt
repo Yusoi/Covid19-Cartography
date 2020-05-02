@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="all_info">
+        <SrcDataSource relativeToVRT="1">general.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>general</SrcLayer>
+        <Field name="Country" src="Country" type="String"/>
+        <Field name="4/28/20_i" src="4/28/20_i" type="String"/>
+        <Field name="4/28/20_d" src="4/28/20_d" type="String"/>
+        <Field name="4/28/20_r" src="4/28/20_r" type="String"/>
+        <Field name="Population (2020)" src="Population (2020)" type="String"/>
+        <Field name="Density (P/Km²)" src="Density (P/Km²)" type="String"/>
+        <Field name="Infection Rate %" src="Infection Rate %" type="String"/>
+        <Field name="Mortality Rate %" src="Mortality Rate %" type="String"/>
+        <Field name="Recovery Rate %" src="Recovery Rate %" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
